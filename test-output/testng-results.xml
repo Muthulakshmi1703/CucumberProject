@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-08T06:25:57 IST" name="Default suite" finished-at="2023-07-08T06:26:10 IST" duration-ms="12407">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.execution.runner.ParallelRunner@43df23d3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-08T06:25:57 IST" name="Default test" finished-at="2023-07-08T06:26:10 IST" duration-ms="12407">
+      <class name="com.execution.runner.ParallelRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.execution.runner.ParallelRunner@43df23d3]" started-at="2023-07-08T06:25:57 IST" name="setUpClass" finished-at="2023-07-08T06:25:58 IST" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a79d4b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.execution.runner.ParallelRunner@43df23d3]" started-at="2023-07-08T06:25:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-08T06:26:05 IST" duration-ms="7519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launch amazon URL"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample feature for Parallel execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.execution.runner.ParallelRunner@43df23d3]" started-at="2023-07-08T06:25:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-08T06:26:10 IST" duration-ms="11914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launch flipkart URL"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample feature for Parallel execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.execution.runner.ParallelRunner@43df23d3]" started-at="2023-07-08T06:26:10 IST" name="tearDownClass" finished-at="2023-07-08T06:26:10 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.execution.runner.ParallelRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
